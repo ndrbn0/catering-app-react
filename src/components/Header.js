@@ -2,38 +2,24 @@ import React from "react";
 import "./../styles/Header.css";
 
 const Header = () => (
-  <header id="header" className="container">
+  <header>
+    <h1 id="service-name">Welcome to Our Catering Service</h1>
     <nav>
-      <img
-        src="/images/catering-logo.png"
-        className="logo"
-        alt="Catering Logo"
-      />
-      <ul id="sidemenu">
-        <li>
-          <a href="#header">Home</a>
-        </li>
+      <ul>
         <li>
           <a href="#about">About</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#menu">Menu</a>
         </li>
         <li>
-          <a href="#portfolio">Gallery</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
-    <div className="header-text">
-      <p>Premium Catering Service</p>
-      <h1>
-        Welcome to <span>Delish</span> Catering
-      </h1>
-      <p>Your Event, Our Passion</p>
-    </div>
   </header>
 );
 

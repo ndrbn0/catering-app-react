@@ -2,8 +2,9 @@ import React from "react";
 import "./../styles/Footer.css";
 
 const Footer = () => (
-  <footer className="footer">
-    <p>Copyright © Delish Catering 2024. All rights reserved.</p>
+  <footer>
+    <p>&copy; 2024 Catering Service. All Rights Reserved.</p>
+    <p>Produced by Andrea Bruni, ndbn Web Development</p>
   </footer>
 );
 
